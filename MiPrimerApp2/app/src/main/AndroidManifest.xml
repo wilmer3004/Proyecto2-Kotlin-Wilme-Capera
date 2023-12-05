@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MiPrimerApp2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Binario"
+            android:exported="false" />
+        <activity
+            android:name=".Libre"
+            android:exported="false" />
+        <activity
+            android:name=".EnviarNequi"
+            android:exported="false" />
+        <activity
+            android:name=".RetirarNequi"
+            android:exported="false" />
+        <activity
+            android:name=".ConsignarNequi"
+            android:exported="false" />
+        <activity
+            android:name=".LoginNequi"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Nequi"
+            android:exported="false"
+            android:theme="@style/Theme.MiPrimerApp2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculadora"
+            android:exported="true" />
+    </application>
+
+</manifest>
