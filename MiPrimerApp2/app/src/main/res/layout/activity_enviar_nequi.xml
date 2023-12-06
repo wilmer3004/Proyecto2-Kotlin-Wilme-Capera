@@ -27,7 +27,7 @@
         android:autoSizeTextType="uniform"
         android:freezesText="true"
         android:gravity="center"
-        android:text="Consignar"
+        android:text="Enviar"
         android:textColor="#000"
         android:textColorHint="#000"
         android:textDirection="firstStrongRtl"
